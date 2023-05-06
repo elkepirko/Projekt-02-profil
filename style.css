@@ -16,6 +16,95 @@ tlačítko twitter          #1da1f2
 
 
 body {
+  width: 280px;
+  height: 100px;
   background-color: #bdc3c7;
 }
 
+.profil {
+  background-color: #31363b;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foto {
+  width: 250px;
+  height: 165px;  
+}
+
+.logo {
+  background-color: rgb(190, 53, 149);
+  border-radius: 100%;
+  margin-left: 190px;
+  margin-top: -35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+  margin: 20px;
+}
+
+p {
+  color: rgb(161, 161, 161);
+  font-family: Source Sans Pro;
+  font-size: small;
+  margin: 25px;
+}
+
+.odkazy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 0%;
+}
+
+.druhy {
+  flex-direction: row;
+}
+
+a {
+  color: rgb(161, 161, 161);
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: small;
+  text-decoration: none;
+}
+
+
+.portfolio {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 30px;
+  width: 100%;
+  border: 1px solid #3f464d;
+}
+
+.facebook,
+.twitter {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  border: 1px solid #3f464d;
+  padding: 10px 30px;
+}
+
+.portfolio:hover {
+  color: white;
+  background-color:#e74c3c; 
+  padding: 10px 30px;
+}
+
+.facebook:hover {
+  color: white;
+  background-color:#3b5998; 
+  padding: 10px 30px;
+}
+
+.twitter:hover {
+  color: white;
+  background-color:#1da1f2; 
+  padding: 10px 30px;
+}
